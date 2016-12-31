@@ -40,7 +40,7 @@
     "clean": "del build/**",
     "setup": "mkdir -p build",
     "transform": "postcss --config postcss.config.js",
-    "minify": "postcss -u cssnano build/ticketfly-css-color-garnishes.css -o build/ticketfly-css-color-garnishes.min.css",
+    "minify": "postcss -u cssnano build/ticketfly-css-box-shadow-variables.css -o build/ticketfly-css-box-shadow-variables.min.css",
     "build:dist": "npm run setup && npm run transform",
     "build:dist:min": "npm run build:dist && npm run minify",
     "build:test": "npm run clean && npm run transform && postcss -u postcss-import -u postcss-cssnext test/index-test.css -o build/test.css",
