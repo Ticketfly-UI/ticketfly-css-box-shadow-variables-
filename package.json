@@ -1,6 +1,6 @@
 {
   "name": "ticketfly-css-box-shadow-variables",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Box-Shadow variables for Ticketfly CSS",
   "main": "index.css",
   "style": "index.css",
